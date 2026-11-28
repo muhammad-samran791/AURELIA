@@ -1,37 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#090b0e" />
-  <meta name="description" content="AURELIA — an interactive golden mechanical flower. One click, a beautiful transformation. Built with HTML, CSS and JavaScript." />
-  <title>AURELIA — The Golden Bloom</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-  <main class="experience" id="experience">
-    <div class="noise" aria-hidden="true"></div>
-    <div class="topbar" aria-hidden="true"><span>EXPERIMENT 003 <span class="topbar-mark">✦</span> KINETIC ART</span><span>AN INTERACTIVE STUDY OF FORM</span></div>
-    <header class="heading">
-      <p class="eyebrow"><span></span> A DIGITAL BOTANICAL STUDY <span></span></p>
-      <h1>AURELIA<span class="dot">.</span></h1>
-      <p class="subtitle">Some things are made to unfold.</p>
-    </header>
-    <section class="canvas-wrap" aria-label="Animated golden flower that opens and closes">
-      <div class="scene-halo"></div>
-      <canvas id="flower" aria-label="Golden animated flower. Use the Bloom button to open the petals."></canvas>
-    </section>
-    <div class="lower">
-      <span class="lower-side" aria-hidden="true">ENGINEERED TO BLOOM <span>✦</span> MADE OF MOTION</span>
-      <button id="bloom" class="bloom-button" type="button" aria-pressed="false">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21c-1-5.2-1.3-8-1.3-12.3M12 15.6c-3.1 0-7-2.6-7-7 4.8.3 7 2.8 7 6.9Zm-1.3-5.4c0-4.4 2.6-7 7-7-.1 4.9-2.5 7-7 7Z" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span id="action-text">BLOOM THE FLOWER</span>
-        <span class="button-arrow">↗</span>
-      </button>
-      <span class="status" id="status" aria-live="polite">WAITING TO BLOOM</span>
-    </div>
-    <footer><span>HTML / CSS / JAVASCRIPT</span><span>BEAUTY IN EVERY FRAME.</span></footer>
-  </main>
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090b0e" />
+    <meta
+      name="description"
+      content="AURELIA — an interactive golden mechanical flower. One click, a beautiful transformation. Built with HTML, CSS and JavaScript."
+    />
+    <title>AURELIA — The Golden Bloom</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="experience" id="experience">
+      <div class="noise" aria-hidden="true"></div>
+      <div class="topbar" aria-hidden="true">
+        <span
+          >EXPERIMENT 003 <span class="topbar-mark">✦</span> KINETIC ART</span
+        ><span>AN INTERACTIVE STUDY OF FORM</span>
+      </div>
+      <header class="heading">
+        <p class="eyebrow">
+          <span></span> A DIGITAL BOTANICAL STUDY <span></span>
+        </p>
+        <h1>AURELIA<span class="dot">.</span></h1>
+        <p class="subtitle">Some things are made to unfold.</p>
+      </header>
+      <section
+        class="canvas-wrap"
+        aria-label="Animated golden flower that opens and closes"
+      >
+        <div class="scene-halo"></div>
+        <canvas
+          id="flower"
+          aria-label="Golden animated flower. Use the Bloom button to open the petals."
+        ></canvas>
+      </section>
+      <div class="lower">
+        <span class="lower-side" aria-hidden="true"
+          >ENGINEERED TO BLOOM <span>✦</span> MADE OF MOTION</span
+        >
+        <button
+          id="bloom"
+          class="bloom-button"
+          type="button"
+          aria-pressed="false"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 21c-1-5.2-1.3-8-1.3-12.3M12 15.6c-3.1 0-7-2.6-7-7 4.8.3 7 2.8 7 6.9Zm-1.3-5.4c0-4.4 2.6-7 7-7-.1 4.9-2.5 7-7 7Z"
+              stroke="currentColor"
+              stroke-width="1.45"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span id="action-text">BLOOM THE FLOWER</span>
+          <span class="button-arrow">↗</span>
+        </button>
+        <span class="status" id="status" aria-live="polite"
+          >WAITING TO BLOOM</span
+        >
+      </div>
+
+      <footer class="aurelia-footer">
+        <div class="footer-meta">
+          <span>HTML / CSS / JAVASCRIPT</span>
+          <span>BEAUTY IN EVERY FRAME.</span>
+        </div>
+
+        <p class="footer-credit">
+          &copy; 2026
+          <a
+            href="https://codediamond.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Muhammad Samran (codediamond.dev)
+          </a>
+          · All Rights Reserved.
+        </p>
+      </footer>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
